@@ -1,3 +1,18 @@
-h2 {
-    color: cadetblue;
+/*Universal Selector*/
+* {
+    color: pink;
+    background-color: cyan;
 }
+
+/*Element Selector*/
+button{
+    font-size: 12px;
+}
+
+/*ID Selector*/
+#signup {
+    color: black;
+}
+
+/*Class Selector*/
+
