@@ -77,10 +77,17 @@
 //     console.log("falsy")
 // }
 
-if (0){
-    console.log("truthy")
+// if (0){
+//     console.log("truthy")
+// } else {
+//     console.log("falsy")
+// }
+
+const password = prompt("Enter a password");
+if (password.length >= 6 && password.indexOf(' ') === -1){
+    console.log("Valid Password")
 } else {
-    console.log("falsy")
+    console.log("Incorrect")
 }
 
 
