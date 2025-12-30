@@ -1,22 +1,22 @@
-/*Universal Selector*/
-* {
-    color: pink;
-    background-color: cyan;
-}
+/*!*Universal Selector*!*/
+/** {*/
+/*    color: pink;*/
+/*    background-color: cyan;*/
+/*}*/
 
-/*Element Selector*/
-button{
-    font-size: 12px;
-}
+/*!*Element Selector*!*/
+/*button{*/
+/*    font-size: 12px;*/
+/*}*/
 
-/*ID Selector*/
-#signup {
-    color: black;
-}
+/*!*ID Selector*!*/
+/*#signup {*/
+/*    color: black;*/
+/*}*/
 
-/*Class Selector*/
-.class {
-    background-color: white;
-}
+/*!*Class Selector*!*/
+/*.class {*/
+/*    background-color: white;*/
+/*}*/
 
-/*Descendant Selector*/
+/*!*Descendant Selector*!*/
