@@ -56,17 +56,31 @@
 
 // Password must be 6+ characters
 // Password cannot include space
-const password = prompt("please enter a new password")
+// const password = prompt("please enter a new password")
+//
+// if (password.length >= 6) {
+//     if (password.indexOf(' ') === -1 ){
+//         console.log("Valid Password")
+//     } else {
+//         console.log("Remove space")
+//     }
+//     console.log("Long enough password")
+// } else {
+//     console.log("Password too short")
+// }
 
-if (password.length >= 6) {
-    if (password.indexOf(' ') === -1 ){
-        console.log("Valid Password")
-    } else {
-        console.log("Remove space")
-    }
-    console.log("Long enough password")
+// const userInput = prompt("Enter Something");
+//
+// if (userInput){
+//     console.log("truthy")
+// } else {
+//     console.log("falsy")
+// }
+
+if (0){
+    console.log("truthy")
 } else {
-    console.log("Password too short")
+    console.log("falsy")
 }
 
 
