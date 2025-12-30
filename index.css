@@ -15,4 +15,8 @@ button{
 }
 
 /*Class Selector*/
+.class {
+    background-color: white;
+}
 
+/*Descendant Selector*/
