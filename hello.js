@@ -39,3 +39,17 @@
 //     console.log("$10")
 // }
 
+// let rating = 99;
+//
+// if (rating === 3)
+// {
+//     console.log("You are a superstar")
+// }
+// else if (rating === 10)
+// {
+//     console.log("You are a villian")
+// }
+// else
+// {
+//     console.log("You are a director")
+// }
