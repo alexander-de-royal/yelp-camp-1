@@ -83,11 +83,20 @@
 //     console.log("falsy")
 // }
 
-const password = prompt("Enter a password");
-if (password.length >= 6 && password.indexOf(' ') === -1){
-    console.log("Valid Password")
-} else {
-    console.log("Incorrect")
-}
+// const password = prompt("Enter a password");
+// if (password.length >= 6 && password.indexOf(' ') === -1){
+//     console.log("Valid Password")
+// } else {
+//     console.log("Incorrect")
+// }
+
+// const age = 11;
+// if (age < 5 || age > 65){
+//     console.log("free")
+// } else if (age < 10){
+//     console.log("$10")
+// } else if (age < 65){
+//     console.log("$20")
+// }
 
 
