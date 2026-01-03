@@ -158,16 +158,87 @@
 //     }
 // }
 
-const seatingChart = [
-    ['Kristen', 'Erik', 'Namita'],
-    ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
-    ['Yuma', 'Sakura', 'Jack', 'Erika']
-]
+// const seatingChart = [
+//     ['Kristen', 'Erik', 'Namita'],
+//     ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+//     ['Yuma', 'Sakura', 'Jack', 'Erika']
+// ]
+//
+// for (let i = 0; i < seatingChart.length; i++) {
+//     const row = seatingChart[i];
+//     console.log(`ROW ${i + 1}`)
+//         for (let j = 0; j < row.length; j++){
+//             console.log(row[j])
+//     }
+// }
 
-for (let i = 0; i < seatingChart.length; i++) {
-    const row = seatingChart[i];
-    console.log(`ROW ${i + 1}`)
-        for (let j = 0; j < row.length; j++){
-            console.log(row[j])
+// let count = 0;
+// while (count < 10){
+//     count++;
+//     console.log(count)
+// }
+
+// const SECRET = "BabyHippo";
+//
+// let guess = prompt("enter the secret code");
+// while (guess !== SECRET){
+//     guess = prompt("Wrong! Try Again")
+// }
+// console.log("Congratulations!")
+
+// let targetNum = Math.floor(Math.random() * 10);
+// let guess = Math.floor(Math.random() * 10);
+//
+// while (true){
+//     guess = Math.floor(Math.random() * 10);
+//     if (guess === targetNum){
+//         console.log(`Correct! ${guess} & target was: ${targetNum}`);
+//         break;
+//     }
+//     else {
+//         console.log(`Guessed ${guess}... Incorrect!`)
+//     }
+// }
+
+// let input = prompt("Hey, say something!")
+// while (true){
+//     input = prompt(input);
+//     if (input === "stop copying me"){
+//         break;
+//     }
+// }
+// console.log("Okay! You Win!")
+
+// for (let i = 0; i < 1000; i++){
+//     console.log(i);
+//     if ( i === 100);
+//     break;
+// }
+
+let maximum = parseInt(prompt("Welcome! Enter your max number:"));
+while (!maximum){
+    maximum = parseInt(prompt("Enter a valid number"));
+}
+
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+
+
+let guess = parseInt(prompt("enter your first guess"));
+let attempt = 1;
+
+while (parseInt(guess) !== targetNum){
+    if (guess === 'q') break;
+    attempt++;
+    if (guess > targetNum){
+        guess = parseInt(prompt("Too high! Enter a new guess"))
+    } else {
+        guess = parseInt(prompt("Too low! Enter a new guess"))
     }
 }
+if (guess === 'q'){
+    console.log("Okay, you quit")
+} else {
+    console.log("Congrats")
+    console.log(`You got it! It took you ${attempt} guesses`)
+}
+
