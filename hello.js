@@ -124,3 +124,11 @@
 // let movieLine = ['tom', 'nancy']
 // movieLine[2] = 'pablo'
 
+// for (let i = 1; i <= 1000; i++){
+//     console.log(i)
+// }
+
+// for (let i = 100; i >= 0; i++){
+//     console.log(i)
+// }
+
