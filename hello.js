@@ -242,12 +242,41 @@
 //     console.log(`You got it! It took you ${attempt} guesses`)
 // }
 
-const subreddits = ['cringe', 'books', 'chickens', 'funny', 'pics', 'soccer']
+// const subreddits = ['cringe', 'books', 'chickens', 'funny', 'pics', 'soccer']
+//
+// for (let i = 0; i < subreddits.length; i++) {
+//     console.log(`Visit reddit.com/r/${subreddits[i]}`)
+// }
+//
+// for (let sub of subreddits){
+//     console.log(sub)
+// }
 
-for (let i = 0; i < subreddits.length; i++) {
-    console.log(`Visit reddit.com/r/${subreddits[i]}`)
-}
+// for (let char of "hello world"){
+//     console.log(char)
+// }
 
-for (let sub of subreddits){
-    console.log(sub)
-}
+// const testScores = {
+//     keenan: 80,
+//     damon: 67,
+//     kim: 89,
+//     shawn: 91,
+//     marlon: 72,
+//     dwayne: 77,
+//     nadia: 83,
+//     elvira: 97,
+//     diedre: 81,
+//     vonnie: 60
+// }
+//
+// for (let person in testScores){
+//     console.log(`${person} scored ${testScores[person]}`)
+// }
+//
+// let total = 0;
+// let scores = Object.values(testScores);
+//
+// for (let score of scores){
+//     total += score;
+// }
+// console.log("Average is:", total/scores.length)
